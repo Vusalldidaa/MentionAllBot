@@ -21,12 +21,12 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "**Salam 👋 Men @Mr_KABUS_13 terefinden yaradılmış tağ botuyam**, Qrupda ve Kanallarda Hamını tağ ede bilerem 👻\nBas **/help** daha çox melumatı elde ede bilersiniz",
+    "**Salam 👋 Men @developerbyuu terefinden yaradılmış tağ botuyam**, Qrupda ve Kanallarda Hamını tağ ede bilerem 👻\nBas **/help** daha çox melumatı elde ede bilersiniz",
     link_preview=False,
     buttons=(
       [
-        Button.url('🇦🇿 XAOS Resmi', 'https://t.me/XXAOSResmi'),
-        Button.url('⚜️ Sahib', 'https://t.me/Mr_KABUS_13')
+        Button.url('WG Botlarım 👨‍💻', 'https://t.me/WGBotlarim'),
+        Button.url('⚜️ Sahib', 'https://t.me/developerbyuu')
       ]
     )
   )
@@ -39,8 +39,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('🇦🇿 XAOS Resmi', 'https://t.me/XXAOSResmi'),
-        Button.url('⚜️ Sahib', 'https://t.me/Mr_KABUS_13')
+        Button.url('WG Botlarım 👨‍💻', 'https://t.me/WGBotlarim'),
+        Button.url('⚜️ Sahib', 'https://t.me/developerbyuu')
       ]
     )
   )
