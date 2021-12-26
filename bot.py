@@ -12,21 +12,21 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("19256632"))
+api_hash = os.environ.get("ad85424c6b4a1642e4ee4082d64bbe73")
+bot_token = os.environ.get("5076419448:AAF2g0MdCzpQpLlogUMaHI5YMgXA_SYVTU8")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "**Salam 👋 Men @Mr_KABUS_13 terefinden yaradılmış tağ botuyam**, Qrupda ve Kanallarda Hamını tağ ede bilerem 👻\nBas **/help** daha çox melumatı elde ede bilersiniz",
+    "**Salam 👋 Men @developerbyuu terefinden yaradılmış tağ botuyam**, Qrupda ve Kanallarda Hamını tağ ede bilerem 👻\nBas **/help** daha çox melumatı elde ede bilersiniz",
     link_preview=False,
     buttons=(
       [
-        Button.url('🇦🇿 XAOS Resmi', 'https://t.me/XXAOSResmi'),
-        Button.url('⚜️ Sahib', 'https://t.me/Mr_KABUS_13')
+        Button.url('WG Botlarım 👨‍💻', 'https://t.me/WGBotlarim'),
+        Button.url('⚜️ Sahib', 'https://t.me/developerbyuu')
       ]
     )
   )
